@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div className='nav w-full text-white absolute top-0 left-0 '>
        <nav className='w-full h-20 flex justify-between items-center px-4 py-2'>
-        <img className='w-32' src="../public/image.webp" alt="Logo"/>
+        <img className='w-32' src="/image.webp" alt="Logo"/>
         <h1 className='pr-8 '>Login</h1>
       </nav>
     </div>

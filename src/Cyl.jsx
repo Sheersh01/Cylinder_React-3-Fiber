@@ -5,7 +5,7 @@ import { useFrame, useThree } from '@react-three/fiber';
 import gsap from 'gsap';
 
 const Cyl = () => {
-  const tex = useTexture("../public/grp2.png");
+  const tex = useTexture("/grp2.png");
   const cyl = useRef(null);
   const { mouse } = useThree(); // Access mouse coordinates
   const [isDragging, setIsDragging] = useState(false); // Track dragging state
