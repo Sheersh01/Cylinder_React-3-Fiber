@@ -47,4 +47,16 @@ html,body,#root{
       transform: translateX(-100%);
     }
   }
+
+  @media (max-width: 768px) {
+    #scroller h4 {
+      font-size: 80px;
+      -webkit-text-stroke: 1px #dfdfdf8c;
+    }
+  }
   
+  @media (max-width: 480px) {
+    #scroller h4 {
+      font-size: 50px;
+    }
+  }
